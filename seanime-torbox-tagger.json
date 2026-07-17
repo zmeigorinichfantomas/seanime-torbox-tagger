@@ -1,0 +1,32 @@
+{
+  "id": "seanime-torbox-tagger",
+  "name": "Seanime TorBox Tagger",
+  "version": "0.5.0",
+  "semverConstraint": ">= 3.10.0",
+  "manifestURI": "https://raw.githubusercontent.com/zmeigorinichfantomas/seanime-torbox-tagger/main/seanime-torbox-tagger.json",
+  "language": "typescript",
+  "type": "plugin",
+  "description": "Adds the seanime tag to TorBox torrents created through Seanime.",
+  "author": "zmeigorinichfantomas",
+  "icon": "",
+  "website": "https://github.com/zmeigorinichfantomas/seanime-torbox-tagger",
+  "readme": "https://raw.githubusercontent.com/zmeigorinichfantomas/seanime-torbox-tagger/main/README.md",
+  "lang": "multi",
+  "payload": "",
+  "payloadURI": "https://raw.githubusercontent.com/zmeigorinichfantomas/seanime-torbox-tagger/main/seanime-torbox-tagger.ts",
+  "plugin": {
+    "version": "1",
+    "permissions": {
+      "scopes": [
+        "debrid"
+      ],
+      "allow": {
+        "networkAccess": {
+          "allowedDomains": [
+            "https://api.torbox.app"
+          ]
+        }
+      }
+    }
+  }
+}

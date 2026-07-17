@@ -1,0 +1,27 @@
+{
+  "repository": "5rahim/seanime",
+  "requestedRef": "v3.10.0",
+  "commit": "b0da3968271d996c7cfcf50c90225ad65ebc0683",
+  "files": [
+    {
+      "source": "internal/extension_repo/goja_plugin_types/core.d.ts",
+      "output": "types/core.d.ts",
+      "sha256": "b673c8ae4b92d0251709ff8c29cad1c2c19b75836d056b1a4bf0c9bf1f4fd928"
+    },
+    {
+      "source": "internal/extension_repo/goja_plugin_types/system.d.ts",
+      "output": "types/system.d.ts",
+      "sha256": "555714478609331b3788bdf7405400f7f4e397f03fe85752f1d00ca9afebe675"
+    },
+    {
+      "source": "internal/extension_repo/goja_plugin_types/app.d.ts",
+      "output": "types/app.d.ts",
+      "sha256": "eb1535fb5583f551cec0bcc96adf98c865eb7ad8279f8d0e4dd2346d87c1e34c"
+    },
+    {
+      "source": "internal/extension_repo/goja_plugin_types/plugin.d.ts",
+      "output": "types/plugin.d.ts",
+      "sha256": "9785454af5eed6a0b0729eae84df2e514a1b2a20a2b0a386835ee7716db558ea"
+    }
+  ]
+}
