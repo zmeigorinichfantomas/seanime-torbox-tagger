@@ -1,6 +1,6 @@
 {
   "name": "seanime-torbox-tagger",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.18.0",

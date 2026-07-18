@@ -323,7 +323,7 @@ function init() {
 
     $ui.register((ctx) => {
         const tagger = $shared.use<TorBoxTagger>("torboxTagger")
-        console.log("[TorBox Tagger] UI handler ready (v0.5.0)")
+        console.log("[TorBox Tagger] UI handler ready (v0.5.1)")
 
         $store.watch<TorrentIdPayload>(tagger.pendingTorrentKey, (payload) => {
             tagger.tagTorrent(ctx, payload).catch((error: unknown) => {

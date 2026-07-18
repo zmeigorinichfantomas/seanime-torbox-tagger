@@ -10,6 +10,8 @@ Add this manifest URL as a custom extension in Seanime:
 https://raw.githubusercontent.com/zmeigorinichfantomas/seanime-torbox-tagger/main/seanime-torbox-tagger.json
 ```
 
+Use Seanime's URL installer; copying the manifest into the extensions directory does not download its payload.
+
 Requires Seanime 3.10.0 or newer with TorBox configured as the debrid provider.
 
 ## Development

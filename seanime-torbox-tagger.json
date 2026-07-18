@@ -1,7 +1,7 @@
 {
   "id": "seanime-torbox-tagger",
   "name": "Seanime TorBox Tagger",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "semverConstraint": ">= 3.10.0",
   "manifestURI": "https://raw.githubusercontent.com/zmeigorinichfantomas/seanime-torbox-tagger/main/seanime-torbox-tagger.json",
   "language": "typescript",
